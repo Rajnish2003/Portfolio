@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+/*font-family: 'Overlock', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(235, 227, 227);
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 35px;
+}
+
+.sidebar nav li{
+   list-style-type: none;
+   font-size: 30px;
+    padding: 40px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer
+{
+    /* background-color: rgb(55, 248, 248); */
+    height: 50vh;
+    width: 80vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo{
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+   font-size: 3em;
+}
+.name{
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Fira Sans', sans-serif;
+}
+.about{
+   font-size: 2.5em;
+}
+
+.aboutmore{
+   font-size: 2em;
+   margin-top: 34px;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons{
+    margin-top: 2.2px;
+    font-size: 16px;
+}
+
+.buttons button{
+    padding: 12px;
+    border-radius: 28px;
+    color: white;
+    background: dodgerblue;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 6px 6px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background: white;
+    color: dodgerblue;   
+}
+
+.devpic img{
+    height: 50vh;
+}
+
+.contact{
+    padding: 60px;
+    font-family: 'Source Code Pro', monospace;
+}
+.hi{
+    font-size: 55px;
+}
+.greet{
+    font-size: 20px;
+    font-size: 48px;
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+}
+.social{
+    font-size: 35px;
+    margin: 10px 0px;
+    padding: 4px;
+}
+.profile{
+  display: flex;
+}
+.linkdn img:hover{
+    color: #111;
+    box-shadow: 0 0 100px rgb(25, 103, 204);
+}
+.github img:hover{
+    color: #111;
+    box-shadow: 0 0 100px black;
+}
+.linkdn img{
+    width: 6vw;
+    height: 15vh;
+    margin-top: 32px;
+    padding-left: 14px;
+}
+.github img{
+    width: 7vw;
+    height: 19vh;
+    margin-top: 15px;
+}
+
+h1{
+    margin: 23px;
+    font-size: 4rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.intro{
+    margin: 80px 88px;
+}
+.intro p{
+    font-size: 1.5rem;
+}
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+    font-size: 3rem;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+    font-size: 2rem;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    height: 6px;
+    width: 256px;
+    background-color: white(250, 246, 246);
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.hundred{
+    width: 265px;
+    background-color: red;
+    height: 5px;
+}
+.s5{
+    width: 195px;
+    background-color: red;
+
+}
+.fifty
+{
+    width: 125px;
+    background-color: red;
+
+}
+.t5{
+    width: 75px;
+    background-color: red;
+}
+
+.sidebargo{
+    transform: translate(-400px,0px);
+    position: absolute;
+}
+
+.hamburgur{
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    left: 10px;
+}
+.hammer{
+    margin-top: 10px;
+}
+.cross{
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1600px) {
+    /* *{
+       background-color: rgb(248, 179, 179);
+    }
+    .sidebar{
+        transform: translate(-400px,0px);
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .buttons button{
+         font-size: 8px;
+    }
+}
